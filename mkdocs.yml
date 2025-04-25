@@ -2,7 +2,7 @@ site_name: Rivers and lakes # Название сайта
 site_description: Rivers and lakes of Russia # Описание сайта, добавляется в meta-теги
 theme: # Тема сайта, информация о ее параметрах
   name: material # Название темы
-  logo: docs/2025-03-18 19 06 25.png # Ссылка на логотип сайта
+  logo: docs/logo.png # Ссылка на логотип сайта
   font:
     text: Roboto # Шрифт текста
     code: Roboto Mono # Шрифт для текста кода
