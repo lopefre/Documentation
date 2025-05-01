@@ -1,4 +1,5 @@
-# Hello
-## I'm new here
+- Что такое Weblate
 
-- [x] new changes made
+- Для кого эта документация
+
+- Ссылки на важные разделы

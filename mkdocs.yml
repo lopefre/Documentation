@@ -1,16 +1,16 @@
-site_name: Rivers and lakes # Название сайта
-site_description: Rivers and lakes of Russia # Описание сайта, добавляется в meta-теги
+site_name: Weblate Documentation # Название сайта
+site_description: Weblate User Documentation # Описание сайта, добавляется в meta-теги
 theme: # Тема сайта, информация о ее параметрах
   name: material # Название темы
   logo: assets/logo.png # Ссылка на логотип сайта
   font:
-    text: Roboto # Шрифт текста
+    text: Verdana # Шрифт текста
     code: Roboto Mono # Шрифт для текста кода
   features:
     #- navigation.sections
     - navigation.path # Хлебные крошки
     - navigation.indexes # Позволяет создавать корневые страницы разделов меню. Корневая страница должна лежать в папке раздела и называться index.md. Пример использования корневых страниц приведен ниже в настройках nav
-    #- navigation.tabs # Верхнее меню
+    - navigation.tabs # Верхнее меню
     #- navigation.tabs.sticky # Фиксация верхнего меню
     #- Navigation sections # Настройка спойлеров в левом меню
     #- navigation.expand # Разворачивает спойлеры в левом меню по умолчанию
@@ -40,16 +40,12 @@ theme: # Тема сайта, информация о ее параметрах
 
 nav: # Структура сайта
     - Главная страница: index.md
-    - Озёра России: 
-      - lakes/index.md
-      - Онежское озеро: lakes/Онежское озеро.md
-      - Ладожское озеро: lakes/Ладожское озеро.md
-      - Байкал: lakes/Байкал.md
-    - Реки России:
-      - rivers/index.md
-      - Свирь: rivers/Свирь.md
-      - Нева: rivers/Нева.md
-      - Ангара: rivers/Ангара.md
+    - Начало работы: getting-started.md
+    - Обзор интерфейса: interface-overview.md
+    - Перевод: translation-workflow.md
+    - Контроль версий: version-control.md
+    - FAQ: faq.md
+    - Contribute: contribute.md
 
 extra:
   social: # Ссылки на соц.сети
