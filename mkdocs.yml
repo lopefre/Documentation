@@ -41,7 +41,9 @@ theme: # Тема сайта, информация о ее параметрах
 nav: # Структура сайта
     - Главная страница: index.md
     - Начало работы: getting-started.md
-    - Обзор интерфейса: interface-overview.md
+    - Обзор интерфейса:
+      - Введение: interface-overview.md
+      - Панель управления: interface-overview/panel.md
     - Перевод: translation-workflow.md
     - Контроль версий: version-control.md
     - FAQ: faq.md
