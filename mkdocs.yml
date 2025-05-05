@@ -42,7 +42,7 @@ nav: # Структура сайта
     - Главная страница: index.md
     - Начало работы: getting-started.md
     - Обзор интерфейса:
-      - Введение: interface-overview.md
+      - Введение: interface-overview/index.md
       - Панель управления: interface-overview/panel.md
     - Перевод: translation-workflow.md
     - Контроль версий: version-control.md
@@ -60,6 +60,8 @@ markdown_extensions: # Расширения markdown
   - attr_list # Использование html-атрибутов и CSS в элементах markdown
   - md_in_html # Поддержка markdown внутри html
   - def_list # Поддержка списков определений
+  - toc:
+      permalink: "#"
   - pymdownx.tabbed # Использование вкладок (табов)
   - pymdownx.details # Использование спойлеров (катов)
   - pymdownx.highlight: # Подсветка синтаксиса в блоках кода
