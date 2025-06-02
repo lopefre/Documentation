@@ -1,0 +1,17 @@
+name: Основное пространство
+icon: layers
+groups: null
+enterprise:
+  gesUrl: null
+  lastUpdateDate: null
+services:
+  gitProxy:
+    url: https://gram.ax/git-proxy
+  auth:
+    url: https://gram.ax/auth
+  diagramRenderer:
+    url: https://app.gram.ax/-server/diagram-renderer
+  review:
+    url: https://gram.ax/review
+  cloud:
+    url: null
