@@ -1,5 +1,5 @@
-site_name: Weblate Documentation # Название сайта
-site_description: Weblate User Documentation # Описание сайта, добавляется в meta-теги
+site_name: Code Documentation # Название сайта
+site_description: Code Documentation # Описание сайта, добавляется в meta-теги
 theme: # Тема сайта, информация о ее параметрах
   name: material # Название темы
   logo: assets/logo.png # Ссылка на логотип сайта
@@ -38,16 +38,15 @@ theme: # Тема сайта, информация о ее параметрах
       primary: deep purple
       accent: blue
 
-nav: # Структура сайта
-    - Главная страница: index.md
-    - Начало работы: getting-started.md
-    - Обзор интерфейса:
-      - Введение: interface-overview/index.md
-      - Панель управления: interface-overview/panel.md
-    - Перевод: translation-workflow.md
-    - Контроль версий: version-control.md
-    - FAQ: faq.md
-    - Contribute: contribute.md
+nav:
+  - Home: index.md
+  - Скрипт: auto-doc-gen.md
+  - Проверка переводов: translation-checker.md
+  - Установка: installation.md
+  - Использование: usage.md
+  - Вход/выход: io.md
+  - Примеры: examples.md
+  - FAQ: faq.md
 
 extra:
   social: # Ссылки на соц.сети
