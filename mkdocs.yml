@@ -42,6 +42,7 @@ nav:
   - Главная: index.md
   - Установка: installation.md
   - Использование: usage.md
+  - Форматирование: formatting.md
   - Частые ошибки: errors.md
   - FAQ: faq.md
 
