@@ -6,13 +6,13 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Code Documentation">
+        <meta name="description" content="Autodocs Documentation">
       
       
       
       
       
-        <link rel="next" href="auto-doc-gen/">
+        <link rel="next" href="installation/">
       
       
       <link rel="icon" href="assets/images/favicon.png">
@@ -20,7 +20,7 @@
     
     
       
-        <title>Code Documentation</title>
+        <title>Autodocs Documentation</title>
       
     
     
@@ -71,6 +71,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#autodocs-" class="md-skip">
+          Перейти к содержанию
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -83,7 +88,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Верхний колонтитул">
-    <a href="." title="Code Documentation" class="md-header__button md-logo" aria-label="Code Documentation" data-md-component="logo">
+    <a href="." title="Autodocs Documentation" class="md-header__button md-logo" aria-label="Autodocs Documentation" data-md-component="logo">
       
   <img src="assets/logo.png" alt="logo">
 
@@ -96,13 +101,13 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            Code Documentation
+            Autodocs Documentation
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Home
+              Главная
             
           </span>
         </div>
@@ -205,12 +210,12 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Навигация" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="Code Documentation" class="md-nav__button md-logo" aria-label="Code Documentation" data-md-component="logo">
+    <a href="." title="Autodocs Documentation" class="md-nav__button md-logo" aria-label="Autodocs Documentation" data-md-component="logo">
       
   <img src="assets/logo.png" alt="logo">
 
     </a>
-    Code Documentation
+    Autodocs Documentation
   </label>
   
   <ul class="md-nav__list" data-md-scrollfix>
@@ -228,60 +233,105 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Главная
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="." class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
-    Home
+    Главная
     
   </span>
   
 
       </a>
       
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="auto-doc-gen/" class="md-nav__link">
         
-  
-  <span class="md-ellipsis">
-    Скрипт
-    
-  </span>
-  
 
-      </a>
-    </li>
+<nav class="md-nav md-nav--secondary" aria-label="Содержание">
   
-
+  
+  
     
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      ⚙️ Установка окружения
+    </span>
+  </a>
+  
+</li>
       
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      🚀 Быстрый старт
+    </span>
+  </a>
   
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      📥 Ввод данных
+    </span>
+  </a>
   
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      📄 Выходные документы
+    </span>
+  </a>
   
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧯 Возможные ошибки
+    </span>
+  </a>
   
-    <li class="md-nav__item">
-      <a href="translation-checker/" class="md-nav__link">
-        
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#faq" class="md-nav__link">
+    <span class="md-ellipsis">
+      ❓ FAQ
+    </span>
+  </a>
   
-  <span class="md-ellipsis">
-    Проверка переводов
-    
-  </span>
+</li>
+      
+    </ul>
   
-
-      </a>
+</nav>
+      
     </li>
   
 
@@ -335,32 +385,11 @@
   
   
     <li class="md-nav__item">
-      <a href="io/" class="md-nav__link">
+      <a href="errors/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Вход/выход
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="examples/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Примеры
+    Частые ошибки
     
   </span>
   
@@ -408,6 +437,70 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      ⚙️ Установка окружения
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      🚀 Быстрый старт
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      📥 Ввод данных
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      📄 Выходные документы
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧯 Возможные ошибки
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#faq" class="md-nav__link">
+    <span class="md-ellipsis">
+      ❓ FAQ
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -423,9 +516,103 @@
 
 
 
-  <h1>Home</h1>
-
-
+<h1 id="autodocs-">Autodocs — автоматическая генерация документации по слот-играм<a class="headerlink" href="#autodocs-" title="Permanent link">#</a></h1>
+<p>Скрипт формирует документацию для лицензирования игр (EN / RU) с минимальным ручным трудом. Подходит для новых, Dice- и кастомных игр.</p>
+<hr />
+<h2 id="_1">⚙️ Установка окружения<a class="headerlink" href="#_1" title="Permanent link">#</a></h2>
+<ol>
+<li>
+<p>Установите Python: <a href="https://www.python.org/downloads/">Download Python | Python.org</a></p>
+</li>
+<li>
+<p>Обязательно: отметьте галочку <strong>Add Python to PATH</strong></p>
+</li>
+<li>
+<p>Установите VS Code + расширения:</p>
+</li>
+<li>
+<p><strong>Jupyter</strong></p>
+</li>
+<li>
+<p><strong>Python</strong></p>
+</li>
+<li>
+<p>(Опционально) Обновите <code>pip</code>:</p>
+</li>
+</ol>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>python -m pip install --upgrade pip
+</code></pre></div>
+<hr />
+<h2 id="_2">🚀 Быстрый старт<a class="headerlink" href="#_2" title="Permanent link">#</a></h2>
+<ol>
+<li>Откройте нужный файл в VS Code:</li>
+<li><code>Autodocs (New).ipynb</code> — для новых игр</li>
+<li><code>Autodocs (Dice).ipynb</code> — для Dice-игр</li>
+<li><code>Autodocs (Custom).ipynb</code> — для кастомных игр</li>
+<li>Нажмите <strong>Run All</strong>.</li>
+<li>Следуйте подсказкам в ячейках.</li>
+</ol>
+<hr />
+<h2 id="_3">📥 Ввод данных<a class="headerlink" href="#_3" title="Permanent link">#</a></h2>
+<p>Код запросит:</p>
+<ul>
+<li>Название игры (например, <code>FortuneSnake</code>)</li>
+<li>Ссылки на Confluence:</li>
+<li>ГДД</li>
+<li>Математика (если есть)</li>
+<li>Логин/пароль от Confluence</li>
+<li>Исходную игру-донор (для кастомных игр)</li>
+</ul>
+<p><em>Откроется окно браузера → введите логин и пароль → вернитесь в VS Code.</em></p>
+<hr />
+<h2 id="_4">📄 Выходные документы<a class="headerlink" href="#_4" title="Permanent link">#</a></h2>
+<p>После выполнения появятся два файла:</p>
+<ul>
+<li><code>GameName.docx</code> (английская версия)</li>
+<li><code>GameName_ru.docx</code> (русская версия)</li>
+</ul>
+<p>Проверьте:</p>
+<ul>
+<li>титульные листы и логотип</li>
+<li>таблицу символов и текста</li>
+<li>правильность подставленных картинок</li>
+<li>активируйте оглавление (F9 → Обновить поле)</li>
+</ul>
+<hr />
+<h2 id="_5">🧯 Возможные ошибки<a class="headerlink" href="#_5" title="Permanent link">#</a></h2>
+<table>
+<thead>
+<tr>
+<th>Проблема</th>
+<th>Решение</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Python не найден</td>
+<td>Установите Python, проверьте PATH</td>
+</tr>
+<tr>
+<td>Не найден <code>help.html</code></td>
+<td>Скопируйте из оригинальной игры</td>
+</tr>
+<tr>
+<td>Картинка <code>Symbol_00.png</code> не вставляется</td>
+<td>Убедитесь в совпадении имён файлов</td>
+</tr>
+<tr>
+<td>Ошибки при запуске</td>
+<td>Обновите pip, закройте Word-документы</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="faq">❓ FAQ<a class="headerlink" href="#faq" title="Permanent link">#</a></h2>
+<ul>
+<li><strong>Это безопасно?</strong> — Да. Скрипт не сохраняет пароли и не передаёт данные сторонним сервисам.</li>
+<li><strong>Можно ли обновлять старые документы?</strong> — Да, при условии наличия шаблона и исходных данных.</li>
+<li><strong>Что делает скрипт?</strong> — Он заполняет шаблон Word данными из ресурсов игры и Confluence.</li>
+</ul>
 
 
 
@@ -461,7 +648,7 @@
       <div class="md-copyright">
   
     <div class="md-copyright__highlight">
-      &copy; 2024 NOVILLERO
+      &copy; 2025 lopefre
 
     </div>
   

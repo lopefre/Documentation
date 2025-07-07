@@ -6,12 +6,12 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Code Documentation">
+        <meta name="description" content="Autodocs Documentation">
       
       
       
       
-        <link rel="prev" href="../examples/">
+        <link rel="prev" href="../errors/">
       
       
       
@@ -20,7 +20,7 @@
     
     
       
-        <title>FAQ - Code Documentation</title>
+        <title>FAQ - Autodocs Documentation</title>
       
     
     
@@ -71,6 +71,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#faq" class="md-skip">
+          Перейти к содержанию
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -83,7 +88,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Верхний колонтитул">
-    <a href=".." title="Code Documentation" class="md-header__button md-logo" aria-label="Code Documentation" data-md-component="logo">
+    <a href=".." title="Autodocs Documentation" class="md-header__button md-logo" aria-label="Autodocs Documentation" data-md-component="logo">
       
   <img src="../assets/logo.png" alt="logo">
 
@@ -96,7 +101,7 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            Code Documentation
+            Autodocs Documentation
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
@@ -205,12 +210,12 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Навигация" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="Code Documentation" class="md-nav__button md-logo" aria-label="Code Documentation" data-md-component="logo">
+    <a href=".." title="Autodocs Documentation" class="md-nav__button md-logo" aria-label="Autodocs Documentation" data-md-component="logo">
       
   <img src="../assets/logo.png" alt="logo">
 
     </a>
-    Code Documentation
+    Autodocs Documentation
   </label>
   
   <ul class="md-nav__list" data-md-scrollfix>
@@ -226,49 +231,7 @@
         
   
   <span class="md-ellipsis">
-    Home
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../auto-doc-gen/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Скрипт
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../translation-checker/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Проверка переводов
+    Главная
     
   </span>
   
@@ -327,32 +290,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../io/" class="md-nav__link">
+      <a href="../errors/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Вход/выход
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../examples/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Примеры
+    Частые ошибки
     
   </span>
   
@@ -376,6 +318,18 @@
       
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    FAQ
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -386,6 +340,32 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Содержание">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#faq" class="md-nav__link">
+    <span class="md-ellipsis">
+      FAQ
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -409,6 +389,23 @@
   
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#faq" class="md-nav__link">
+    <span class="md-ellipsis">
+      FAQ
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -425,7 +422,12 @@
 
   <h1>FAQ</h1>
 
-
+<h2 id="faq">FAQ<a class="headerlink" href="#faq" title="Permanent link">#</a></h2>
+<ul>
+<li><strong>Это безопасно?</strong> — Да. Скрипт не сохраняет пароли и не передает данные сторонним сервисам.</li>
+<li><strong>Можно ли обновлять старые документы?</strong> — Пока нет. Поддержка появится позже.</li>
+<li><strong>Что делает скрипт?</strong> — Собирает документ Word с данными из ресурсов игры и Confluence.</li>
+</ul>
 
 
 
@@ -461,7 +463,7 @@
       <div class="md-copyright">
   
     <div class="md-copyright__highlight">
-      &copy; 2024 NOVILLERO
+      &copy; 2025 lopefre
 
     </div>
   

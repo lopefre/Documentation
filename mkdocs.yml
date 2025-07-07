@@ -1,5 +1,5 @@
-site_name: Code Documentation # Название сайта
-site_description: Code Documentation # Описание сайта, добавляется в meta-теги
+site_name: Autodocs Documentation # Название сайта
+site_description: Autodocs Documentation # Описание сайта, добавляется в meta-теги
 theme: # Тема сайта, информация о ее параметрах
   name: material # Название темы
   logo: assets/logo.png # Ссылка на логотип сайта
@@ -39,13 +39,10 @@ theme: # Тема сайта, информация о ее параметрах
       accent: blue
 
 nav:
-  - Home: index.md
-  - Скрипт: auto-doc-gen.md
-  - Проверка переводов: translation-checker.md
+  - Главная: index.md
   - Установка: installation.md
   - Использование: usage.md
-  - Вход/выход: io.md
-  - Примеры: examples.md
+  - Частые ошибки: errors.md
   - FAQ: faq.md
 
 extra:
@@ -72,4 +69,4 @@ markdown_extensions: # Расширения markdown
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 copyright: |
-  &copy; 2024 NOVILLERO
+  &copy; 2025 lopefre
