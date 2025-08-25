@@ -39,7 +39,7 @@ theme: # Тема сайта, информация о ее параметрах
       accent: blue
 
 nav:
-  - Главная: index.md
+  - Быстрый старт: index.md
   - Установка: installation.md
   - Использование: usage.md
   - Форматирование: formatting.md

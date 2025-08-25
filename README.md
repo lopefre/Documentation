@@ -7,10 +7,14 @@
 ## ⚙️ Установка окружения
 
 1. Установите Python: https://www.python.org/downloads/
+   
    - Обязательно: отметьте галочку **Add Python to PATH**
+
 2. Установите VS Code + расширения:
+   
    - **Jupyter**  
    - **Python**
+
 3. (Опционально) Обновите `pip`:
    
    ```
