@@ -43,7 +43,7 @@ nav:
   - Установка: installation.md
   - Использование: usage.md
   - Форматирование: formatting.md
-  - Частые ошибки: errors.md
+  - Возможные проблемы: errors.md
   - FAQ: faq.md
 
 extra:
