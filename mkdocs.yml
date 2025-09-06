@@ -2,7 +2,7 @@ site_name: Autodocs Documentation # Название сайта
 site_description: Autodocs Documentation # Описание сайта, добавляется в meta-теги
 theme: # Тема сайта, информация о ее параметрах
   name: material # Название темы
-  logo: assets/logo.png # Ссылка на логотип сайта
+  #logo:  # Ссылка на логотип сайта
   font:
     text: Verdana # Шрифт текста
     code: Roboto Mono # Шрифт для текста кода
