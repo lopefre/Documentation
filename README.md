@@ -1,83 +1,34 @@
-# # 📄 Autodocs — автоматическая генерация документации по слот-играм
+# Autodocs
 
-Скрипт формирует документацию для лицензирования игр (EN / RU) с минимальным ручным трудом. Подходит для новых, Dice- и кастомных игр.
+Autodocs is a Python-based tool that **automates documentation generation** for licensing game products.  
+It was created to simplify daily manual work for technical writers who don’t have programming skills.
 
----
+## What it does
+- Collects data from predefined sources  
+- Generates structured Word documents using templates  
+- Formats content consistently (headings, styles, layout)  
+- Reduces time spent on routine documentation tasks from hours to minutes  
 
-## ⚙️ Установка окружения
+## Who it is for
+- Technical writers  
+- Localization specialists  
+- Documentation teams working with repetitive document structures  
 
-1. Установите Python: https://www.python.org/downloads/
-   
-   - Обязательно: отметьте галочку **Add Python to PATH**
+## Key features
+- Simple usage: run one script to generate a ready-to-use document  
+- No programming knowledge required  
+- Error handling and basic troubleshooting included  
+- Easily adaptable for new document templates  
 
-2. Установите VS Code + расширения:
-   
-   - **Jupyter**  
-   - **Python**
+## Documentation
+Full documentation (in Russian): [link to your GitHub Pages site]  
 
-3. (Опционально) Обновите `pip`:
-   
-   ```
-   python -m pip install --upgrade pip
-   ```
+It includes:
+- Installation guide  
+- Quick start  
+- Usage scenarios  
+- Formatting rules  
+- Troubleshooting & FAQ  
 
----
-
-## 🚀 Быстрый старт
-
-1. Откройте нужный файл в VS Code:
-   - `Autodocs (New).ipynb` — для новых игр
-   - `Autodocs (Dice).ipynb` — для Dice-игр
-   - `Autodocs (Custom).ipynb` — для кастомных игр
-2. Нажмите **Run All**.
-3. Следуйте подсказкам в ячейках.
-
----
-
-## 📥 Ввод данных
-
-Код запросит:
-
-- Название игры (например, `FortuneGame`)
-- Ссылки на Confluence:
-  - ГДД
-  - Математика (если есть)
-- Логин/пароль от Confluence
-- Исходную игру-донор (для кастомных игр)
-
-*Откроется окно браузера → введите логин и пароль → вернитесь в VS Code.*
-
----
-
-## 📄 Выходные документы
-
-После выполнения появятся два файла:
-
-- `GameName.docx` (английская версия)
-- `GameName_ru.docx` (русская версия)
-
-Проверьте:
-
-- титульные листы и логотип
-- таблицу символов и тексты
-- правильность подставленных картинок
-- активируйте оглавление (F9 → Обновить поле)
-
----
-
-## 🧯 Возможные ошибки
-
-| Проблема                                | Решение                               |
-| --------------------------------------- | ------------------------------------- |
-| Python не найден                        | Установите Python, проверьте PATH     |
-| Не найден `help.html`                   | Скопируйте из оригинальной игры       |
-| Картинка `Symbol_00.png` не вставляется | Убедитесь в совпадении имён файлов    |
-| Ошибки при запуске                      | Обновите pip, закройте Word-документы |
-
----
-
-## ❓ FAQ
-
-- **Это безопасно?** — Да. Скрипт не сохраняет пароли и не передаёт данные сторонним сервисам.
-- **Можно ли обновлять старые документы?** — Да, при условии наличия шаблона и исходных данных.
-- **Что делает скрипт?** — Он заполняет шаблон Word данными из ресурсов игры и Confluence.
+## ⚠️ Disclaimer
+This project was developed as an **internal automation tool** and is provided here for demonstration purposes only.
