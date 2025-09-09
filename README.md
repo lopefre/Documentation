@@ -21,7 +21,7 @@ It was created to simplify daily manual work for technical writers who don’t h
 - Easily adaptable for new document templates  
 
 ## Documentation
-Full documentation (in Russian): [link to your GitHub Pages site]  
+Full documentation (in Russian): [](https://lopefre.github.io/Documentation/)  
 
 It includes:
 - Installation guide  
