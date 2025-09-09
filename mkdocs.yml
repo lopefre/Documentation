@@ -41,7 +41,7 @@ theme: # Тема сайта, информация о ее параметрах
 nav:
   - Главная: index.md
   - Установка: installation.md
-  - Использование: usage.md
+  - Быстрый старт: usage.md
   - Форматирование: formatting.md
   - Возможные проблемы: errors.md
   - FAQ: faq.md
