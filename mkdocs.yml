@@ -42,6 +42,7 @@ nav:
   - Главная: index.md
   - Установка: installation.md
   - Быстрый старт: usage.md
+  - Как формируются документы: howitworks.md
   - Форматирование: formatting.md
   - Возможные проблемы: errors.md
   - FAQ: faq.md
