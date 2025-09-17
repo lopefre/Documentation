@@ -40,7 +40,7 @@ theme: # Тема сайта, информация о ее параметрах
 
 nav:
   - Главная: index.md
-  - Установка: installation.md
+  - Установка окружения: installation.md
   - Быстрый старт: usage.md
   - Как формируются документы: howitworks.md
   - Форматирование: formatting.md
